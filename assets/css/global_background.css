@@ -1,0 +1,20 @@
+body {
+    background-image: url('./assets/images/lfg_background.png'); /* Assuming you place the image here */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    min-height: 100vh; /* Ensures the body takes at least the full viewport height */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+/* Ensure your content is visible on top of the background */
+section,
+nav,
+div.w3-container,
+div.portfolio-container,
+div.container.mt-5 {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay for readability */
+    color: #fff; /* Adjust text color for contrast */
+} 

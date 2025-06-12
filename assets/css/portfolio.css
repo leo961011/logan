@@ -323,6 +323,7 @@ p {
 }
 
 .portfolio-container {
+  /* cursor: none; */
   position: relative;
   display: flex;
   flex-direction: column;
