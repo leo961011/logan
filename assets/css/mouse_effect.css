@@ -1,6 +1,6 @@
 .mouse-trail-particle {
     position: fixed;
-    background: radial-gradient(circle at center, #FFD700, #FFA500, transparent 60%); /* Brighter gold to orange, less transparency */
+    background: radial-gradient(circle at center, gold, orange, transparent 80%); /* More concentrated gradient for clarity */
     border-radius: 50%;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0); /* Centered transform, start small */
